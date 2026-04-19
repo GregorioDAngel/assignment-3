@@ -3,7 +3,7 @@
     Author: Gregorio Del Angel
     File: patient-form.js
     Date Created: 2/17/2026
-    Date Last Modified: 3/27/2026
+    Date Last Modified: 4/19/2026
     Description: This is the JavaScript file for the patient-form A lot was inspired by the work from Prof. Jake's assignment 3 as a baseline,
     but I have included the validation check for the phone, DoB, email, UserIDvsPass, and the UserID, as well as modifying the pre-existing code.
 */
