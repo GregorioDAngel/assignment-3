@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-    Name: patient-form for MIS 3371 assignment 2
+    Name: patient-form for MIS 3371 assignment 3
     Author: Gregorio Del Angel
     File: patient-form.html (has to be named index.html for github to read and publish on pages)
     Date Created: 2/17/2026
@@ -429,10 +429,15 @@
 									oninvalid="
 										this.setCustomValidity('5 Digit Zip/Postal Code required')
 									"
-									oninput="this.setCustomValidity('')"
+									oninput="
+										this.setCustomValidity('');
+										checkzip();
+									"
+									onblur="checkzip()"
 									placeholder="00000" />
 								<span id="city_message"></span>
 								<span id="state_message"></span>
+								<span id="zip_message"></span>
 							</td>
 						</tr>
 						<tr class="form">
